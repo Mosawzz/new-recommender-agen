@@ -1,0 +1,166 @@
+[
+  {
+    "customer_id": "10207177",
+    "id": 3291,
+    "persona_summary": "{\"persona\": {\"name\": \"at-risk-declining customer with high churn probability\", \"summary\": \"This customer exhibits a concerning financial profile characterized by a 100% churn probability and a balance payoff ratio of 0.0, indicating a lack of engagement with credit products. Additionally, their average transaction value of EGP 551.30 is among the worst, suggesting limited spending activity. With a net flow position of -77,700.65, this customer is at significant risk of account dormancy.\", \"confidence\": \"high\", \"behavioral_segment\": \"at-risk-declining\", \"risk_tier\": \"high\", \"risk_evidence\": [\"churn_probability: 100.0\", \"balance_payoff_ratio: 0.0\", \"net_flow_position: -77700.65\", \"avg_transaction_value: 551.30\"]}, \"analysis_rationale\": [\"The customer has a churn probability of 100.0, indicating a high risk of leaving the bank.\", \"A balance payoff ratio of 0.0 suggests that the customer is not actively managing their credit card debt.\", \"The net flow position of -77,700.65 indicates significant outflows, which is detrimental to their financial health.\"], \"key_signals\": {\"growth\": [\"The customer has a high customer lifetime value of 5,909,895.30, indicating potential for future profitability if engagement improves.\"], \"risks\": [\"The customer has a dormant account identification score of 100.0, indicating a complete lack of activity.\"]}, \"recommendations\": {\"account_transfers\": [\"Encourage the customer to set up recurring transfers to improve their net flow position.\"], \"credit_cards\": [\"Offer personalized credit management tools to help the customer improve their balance payoff ratio.\"], \"debit_cards_products\": [\"Promote debit card usage by highlighting benefits for everyday purchases to increase transaction frequency.\"]}, \"per_domain_insights\": {\"credit_cards\": \"The customer has a balance payoff ratio of 0.0 and a churn probability of 100.0, indicating severe disengagement with credit products.\", \"debit_cards\": \"The debit card usage shows a monthly spending trend of EGP 207.43, but the overall transaction frequency is low at 1.312, suggesting limited engagement.\", \"account_transfers\": \"The net flow position is -77,700.65, indicating that the customer is experiencing significant outflows, which is a critical risk factor.\", \"banking_products\": \"The customer has a total of 72 CDs but lacks diversification in banking products, with no loans or other products utilized.\", \"general_kpis\": \"The liquidity KPI is at 1.1369, which is the worst, indicating potential liquidity issues.\", \"facets\": \"The customer shows a consistent interest in clothing and fashion accessories, with monthly spending patterns indicating a focus on these categories.\"}, \"spending_profile\": {\"monthly_volume_trend\": \"decreasing\", \"primary_channels\": [\"clothing\", \"fashion_accessories\"]}, \"product_engagement\": {\"products_used\": 1, \"engagement_level\": \"low\"}}",
+    "status": "completed",
+    "total_kpis_analyzed": 152,
+    "successful_analyses": 150,
+    "analysis_window": {
+      "facet_date_max": "2024-12-31",
+      "facet_date_min": "2024-01-01",
+      "failed_sections": [],
+      "completed_sections": [
+        "credit_cards",
+        "debit_cards",
+        "funds",
+        "products",
+        "general_kpis"
+      ],
+      "performance_profile": {
+        "llm_cache_hits": 125,
+        "llm_calls_made": 25,
+        "llm_cache_misses": 25,
+        "llm_cache_hit_rate": 0.8333,
+        "engine_setup_seconds": 0.001,
+        "generate_report_seconds": 137.985
+      },
+      "end_debit_transaction_date": "2024-12-31",
+      "start_debit_transaction_date": "2024-01-01",
+      "end_credit_transaction_business_date": "2024-12-31",
+      "start_credit_transaction_business_date": "2024-01-01"
+    },
+    "created_at": "2026-03-25 05:08:31.944018+00:00",
+    "credit_start_date": "2024-01-01",
+    "credit_end_date": "2024-12-31",
+    "debit_start_date": "2024-01-01",
+    "debit_end_date": "2024-12-31",
+    "facet_date_min": "2024-01-01",
+    "facet_date_max": "2024-12-31",
+    "llm_error": null,
+    "section_errors": null
+  },
+  {
+    "id": 8018,
+    "customer_id": "10207177",
+    "persona_summary": "{\"persona\": {\"name\": \"at-risk-declining\", \"summary\": \"This customer exhibits a concerning financial profile characterized by a 100% churn probability and a monthly spending trend of -18.22%, indicating a significant decline in engagement. With an average transaction value of only 512.69 EGP and a net flow position of -77,700.65 EGP, the customer is at high risk of disengagement and financial instability.\", \"confidence\": \"high\", \"behavioral_segment\": \"at-risk-declining\", \"risk_tier\": \"high\", \"risk_evidence\": [\"churn_probability: 100.0\", \"monthly_spending_trend: -18.22%\", \"net_flow_position: -77700.65\", \"avg_transaction_value: 512.69\"]}, \"analysis_rationale\": [\"The customer has a churn probability of 100%, indicating an imminent risk of leaving the bank.\", \"A monthly spending trend of -18.22% suggests a significant decline in financial activity.\", \"The net flow position of -77,700.65 EGP indicates a concerning outflow of funds, further exacerbating the risk profile.\"], \"key_signals\": {\"growth\": [\"The customer has a high customer lifetime value of 2,155,859.30 EGP, indicating potential for future profitability if engagement can be improved.\"], \"risks\": [\"The customer has a dormant account identification score of 100%, indicating a complete lack of engagement with their accounts.\"]}, \"recommendations\": {\"account_transfers\": [\"Encourage the customer to set up recurring transfers to stabilize their cash flow and improve net flow position.\"], \"credit_cards\": [\"Offer personalized credit card options with lower fees to incentivize usage and increase transaction frequency.\"], \"debit_cards_products\": [\"Promote debit card features that reward spending to encourage more frequent transactions.\"]}, \"per_domain_insights\": {\"credit_cards\": \"The customer has a poor credit card performance with a monthly spending trend of -18.22% and an average transaction value of 512.69 EGP, both in the worst relative position.\", \"debit_cards\": \"The debit card usage is minimal, with an average transaction value of 163.00 EGP and a transaction velocity of only 14.0, indicating low engagement.\", \"account_transfers\": \"Account transfers show a net flow position of -77,700.65 EGP, highlighting a significant outflow of funds and a high frequency of transfers at 11.31.\", \"banking_products\": \"The customer holds 72 CDs but lacks diversity in banking products, with no loans or other products, indicating a limited engagement with the bank's offerings.\", \"general_kpis\": \"The liquidity KPI is at 1.14, which is in the worst relative position, suggesting potential liquidity issues.\", \"facets\": \"The customer shows a consistent interest in clothing and fashion accessories, indicating potential areas for targeted marketing.\"}, \"spending_profile\": {\"monthly_volume_trend\": \"decreasing\", \"primary_channels\": [\"clothing\", \"fashion_accessories\", \"games\"]}, \"product_engagement\": {\"products_used\": 1, \"engagement_level\": \"low\"}}",
+    "status": "completed",
+    "total_kpis_analyzed": 146,
+    "successful_analyses": 144,
+    "analysis_window": {
+      "facet_date_max": "2025-04-30",
+      "facet_date_min": "2025-01-01",
+      "failed_sections": [],
+      "completed_sections": [
+        "credit_cards",
+        "debit_cards",
+        "funds",
+        "products",
+        "general_kpis"
+      ],
+      "performance_profile": {
+        "llm_cache_hits": 93,
+        "llm_calls_made": 51,
+        "llm_cache_misses": 51,
+        "llm_cache_hit_rate": 0.6458,
+        "engine_setup_seconds": 0.001,
+        "generate_report_seconds": 81.402
+      },
+      "end_debit_transaction_date": "2025-04-30",
+      "start_debit_transaction_date": "2025-01-01",
+      "end_credit_transaction_business_date": "2025-04-30",
+      "start_credit_transaction_business_date": "2025-01-01"
+    },
+    "created_at": "2026-03-25 10:08:55.163236+00:00",
+    "credit_start_date": "2025-01-01",
+    "credit_end_date": "2025-04-30",
+    "debit_start_date": "2025-01-01",
+    "debit_end_date": "2025-04-30",
+    "facet_date_min": "2025-01-01",
+    "facet_date_max": "2025-04-30",
+    "llm_error": null,
+    "section_errors": null
+  },
+  {
+    "id": 16665,
+    "customer_id": "10207177",
+    "persona_summary": "{\"persona\": {\"name\": \"at-risk-declining dormant account holder\", \"summary\": \"This customer exhibits a concerning profile with a churn probability of 100% and a dormant account identification score of 100%. Their average transaction value is notably low at 337.16 EGP, and they have a negative transaction count trend of -81.0, indicating a significant decline in activity. With no cross-border transactions and a high-risk score of 31.71, this customer is at a critical juncture requiring immediate attention.\", \"confidence\": \"high\", \"behavioral_segment\": \"at-risk-declining\", \"risk_tier\": \"high\", \"risk_evidence\": [\"churn_probability: 100.0\", \"dormant_account_identification: 100.0\", \"transaction_count_trend: -81.0\", \"credit_cards: avg_transaction_value: 337.16\"]}, \"analysis_rationale\": [\"The churn probability of 100% indicates an immediate risk of losing this customer, necessitating urgent intervention.\", \"A dormant account identification score of 100% suggests that the customer has not engaged with their account, which is critical for retention strategies.\", \"The negative transaction count trend of -81.0 highlights a significant decline in activity, reinforcing the need for targeted re-engagement efforts.\"], \"key_signals\": {\"growth\": [\"The customer has a high average daily spending of 2660.0 EGP, indicating potential for increased engagement if reactivated.\"], \"risks\": [\"The customer has a high churn probability of 100%, indicating a severe risk of account closure.\"]}, \"recommendations\": {\"account_transfers\": [\"Encourage the customer to utilize their account for regular transfers by offering incentives for monthly transactions.\"], \"credit_cards\": [\"Implement a targeted campaign to promote credit card usage, highlighting benefits and rewards to stimulate spending.\"], \"debit_cards_products\": [\"Introduce personalized offers for debit card usage to encourage transactions and reduce dormant periods.\"]}, \"per_domain_insights\": {\"credit_cards\": \"The customer has a low average transaction value of 337.16 EGP and a high frequency of unusual transaction patterns, indicating potential issues with spending behavior.\", \"debit_cards\": \"The debit card usage shows a concerning lack of large transaction frequency and a dormant period of 0.0, suggesting minimal engagement.\", \"account_transfers\": \"The account transfer metrics reveal a negative net flow position of -77700.65 EGP, indicating outflows exceeding inflows, which is detrimental to account health.\", \"banking_products\": \"The customer holds 72 CDs but shows no engagement with other products, leading to a low overall profitability score of 0.0.\", \"general_kpis\": \"The liquidity KPI is at 1.1369, which is the worst in the domain, indicating potential cash flow issues.\", \"facets\": \"The customer has shown interest in clothing and fashion accessories, but the engagement levels are low, with counts of 261 and 207 respectively.\"}, \"spending_profile\": {\"monthly_volume_trend\": \"decreasing\", \"primary_channels\": [\"clothing\", \"fashion_accessories\", \"reading\"]}, \"product_engagement\": {\"products_used\": 1, \"engagement_level\": \"low\"}}",
+    "status": "completed",
+    "total_kpis_analyzed": 147,
+    "successful_analyses": 145,
+    "analysis_window": {
+      "facet_date_max": "2025-09-30",
+      "facet_date_min": "2025-05-01",
+      "failed_sections": [],
+      "completed_sections": [
+        "credit_cards",
+        "debit_cards",
+        "funds",
+        "products",
+        "general_kpis"
+      ],
+      "performance_profile": {
+        "llm_cache_hits": 129,
+        "llm_calls_made": 16,
+        "llm_cache_misses": 16,
+        "llm_cache_hit_rate": 0.8897,
+        "engine_setup_seconds": 0.001,
+        "generate_report_seconds": 81.898
+      },
+      "end_debit_transaction_date": "2025-09-30",
+      "start_debit_transaction_date": "2025-05-01",
+      "end_credit_transaction_business_date": "2025-09-30",
+      "start_credit_transaction_business_date": "2025-05-01"
+    },
+    "created_at": "2026-03-26 02:13:28.023961+00:00",
+    "credit_start_date": "2025-05-01",
+    "credit_end_date": "2025-09-30",
+    "debit_start_date": "2025-05-01",
+    "debit_end_date": "2025-09-30",
+    "facet_date_min": "2025-05-01",
+    "facet_date_max": "2025-09-30",
+    "llm_error": null,
+    "section_errors": null
+  },
+  {
+    "id": 20551,
+    "customer_id": "10207177",
+    "persona_summary": "{\"persona\": {\"name\": \"Digital-First Innovator with Strong Growth Potential\", \"summary\": \"This customer, identified as a Digital-First Innovator, exhibits exceptional performance in key metrics such as rapid successive transactions, high spending diversity, and a high customer lifetime value. With a focus on digital channels and a strong growth trajectory, this customer presents significant opportunities for engagement and cross-selling.\", \"confidence\": \"high\", \"behavioral_segment\": \"digital-first-user\", \"risk_tier\": \"low\", \"risk_evidence\": [\"High Value Customers - 0.0\", \"Customer Lifetime Value - 8960915.75\"]}, \"analysis_rationale\": [\"The customer's high customer lifetime value indicates a strong relationship with the bank, reducing the risk of churn.\", \"Consistently high spending diversity and rapid successive transactions suggest a stable financial behavior.\", \"The absence of dormant account identification and high profitability score further support a low-risk profile.\"], \"key_signals\": {\"growth\": [\"Opportunity for increased engagement through digital channels\"], \"risks\": []}, \"recommendations\": {\"account_transfers\": [], \"credit_cards\": [], \"debit_cards_products\": []}, \"per_domain_insights\": {\"credit_cards\": \"The customer exhibits a strong performance in credit card metrics, with high spending diversity, rapid successive transactions, and a high customer lifetime value.\", \"debit_cards\": \"The customer's debit card usage shows a preference for digital transactions, with a focus on high-value transfers and after-hours activity.\", \"banking_products\": \"The customer's banking product usage is skewed towards CDs, with a high total principal but low liquidity profile.\", \"general_kpis\": \"The customer's overall KPIs indicate a stable and profitable relationship with the bank, with no significant risk factors identified.\", \"facets\": \"The customer's transaction data across various periods shows sparse activity, limiting behavioral insights.\"}, \"spending_profile\": {\"monthly_volume_trend\": \"stable\", \"primary_channels\": [\"Digital Transactions\", \"High-Value Transfers\"]}, \"product_engagement\": {\"products_used\": 0, \"engagement_level\": \"low\"}}",
+    "status": "completed",
+    "total_kpis_analyzed": 219,
+    "successful_analyses": 137,
+    "analysis_window": {
+      "facet_date_max": "2026-12-31",
+      "facet_date_min": "2020-01-01",
+      "failed_sections": [],
+      "completed_sections": [
+        "credit_cards",
+        "debit_cards",
+        "funds",
+        "products",
+        "general_kpis"
+      ],
+      "performance_profile": {
+        "llm_cache_hits": 0,
+        "llm_calls_made": 137,
+        "llm_cache_misses": 137,
+        "llm_cache_hit_rate": 0.0,
+        "engine_setup_seconds": 0.218,
+        "generate_report_seconds": 195.81
+      },
+      "end_debit_transaction_date": null,
+      "start_debit_transaction_date": null,
+      "end_credit_transaction_business_date": null,
+      "start_credit_transaction_business_date": null
+    },
+    "created_at": "2026-04-04 11:31:17.943853+00:00",
+    "credit_start_date": null,
+    "credit_end_date": null,
+    "debit_start_date": null,
+    "debit_end_date": null,
+    "facet_date_min": "2020-01-01",
+    "facet_date_max": "2026-12-31",
+    "llm_error": null,
+    "section_errors": null
+  }
+]

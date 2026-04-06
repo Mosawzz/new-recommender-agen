@@ -1,0 +1,3424 @@
+{
+  "persona_id: 3291": [
+    {
+      "kpi_name": "monthly_spending_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month change in total card spending; indicates spending growth or decline."
+    },
+    {
+      "kpi_name": "avg_transaction_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average monetary amount per transaction; helps distinguish between many small purchases vs. few large ones."
+    },
+    {
+      "kpi_name": "top_mcc_categories",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Most frequent Merchant Category Codes (e.g., groceries, travel); reveals spending priorities."
+    },
+    {
+      "kpi_name": "currency_distribution",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Breakdown of transaction currencies; shows multi-currency usage."
+    },
+    {
+      "kpi_name": "cross_border_percentage",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Share of transactions where merchant country differs from cardholder's country."
+    },
+    {
+      "kpi_name": "spending_by_weekday",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average spend per weekday; identifies weekday vs. weekend patterns."
+    },
+    {
+      "kpi_name": "large_transaction_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transactions exceeding a predefined high-value threshold."
+    },
+    {
+      "kpi_name": "recurring_payments",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Identifies regular subscription or installment payments."
+    },
+    {
+      "kpi_name": "cash_advance_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How often the customer withdraws cash using the card."
+    },
+    {
+      "kpi_name": "overlimit_occurrences",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of times spending exceeded the credit limit."
+    },
+    {
+      "kpi_name": "ontime_payment_rate",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Percentage of payments made by the due date."
+    },
+    {
+      "kpi_name": "avg_days_past_due",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average number of days a payment is delayed when past due."
+    },
+    {
+      "kpi_name": "minimum_payment_pattern",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tendency to pay only the minimum amount due each cycle."
+    },
+    {
+      "kpi_name": "balance_payoff_ratio",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Percentage of total balance paid off each month."
+    },
+    {
+      "kpi_name": "account_age_analysis",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "How long the account has been active; older accounts indicate stability."
+    },
+    {
+      "kpi_name": "dormant_account_identification",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Flags accounts with no transaction activity over a long period."
+    },
+    {
+      "kpi_name": "expired_card_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Proportion of transactions made with an expired card (often fraud indicator)."
+    },
+    {
+      "kpi_name": "domestic_vs_international",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Comparison of spending within home country vs. abroad."
+    },
+    {
+      "kpi_name": "top_spending_countries",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Countries where the customer spends the most."
+    },
+    {
+      "kpi_name": "currency_exposure_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk from holding or transacting in multiple foreign currencies."
+    },
+    {
+      "kpi_name": "geographic_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Degree to which spending is concentrated in one or few locations."
+    },
+    {
+      "kpi_name": "travel_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How often the customer makes transactions while traveling."
+    },
+    {
+      "kpi_name": "unusual_transaction_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Detects spending behavior that deviates from historical norms."
+    },
+    {
+      "kpi_name": "high_risk_mcc_monitoring",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tracks transactions in high-risk merchant categories (e.g., gambling, adult entertainment)."
+    },
+    {
+      "kpi_name": "rapid_spending_increases",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Sudden spikes in spending over a short time window."
+    },
+    {
+      "kpi_name": "after_hours_transactions",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transactions occurring outside normal business hours."
+    },
+    {
+      "kpi_name": "transaction_velocity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Rate of transactions per unit of time (e.g., per hour or per day)."
+    },
+    {
+      "kpi_name": "high_value_customers",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Customers with consistently high spending or profitability."
+    },
+    {
+      "kpi_name": "new_vs_established",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Compares new accounts to long-standing ones for risk/behavior differences."
+    },
+    {
+      "kpi_name": "spending_diversity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Variety of merchant categories or transaction types used."
+    },
+    {
+      "kpi_name": "mom_spending_growth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month percentage growth in total spending."
+    },
+    {
+      "kpi_name": "seasonal_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Recurring spending peaks tied to holidays, seasons, or annual events."
+    },
+    {
+      "kpi_name": "transaction_count_trend",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Change in the number of transactions over time."
+    },
+    {
+      "kpi_name": "customer_lifetime_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Projected total value a customer will generate over the entire relationship."
+    },
+    {
+      "kpi_name": "churn_probability",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Likelihood that the customer will close the account or stop using the product."
+    },
+    {
+      "kpi_name": "profitability_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall net profit generated by the customer after costs and risk."
+    },
+    {
+      "kpi_name": "kpi_monthly_spending_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Similar to monthly_spending_trend; tracks total spend changes month to month."
+    },
+    {
+      "kpi_name": "kpi_avg_transaction_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average transaction amount; helps segment customers by purchase size."
+    },
+    {
+      "kpi_name": "kpi_entry_mode_distribution",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "How transactions are initiated (e.g., chip, swipe, manual key entry)."
+    },
+    {
+      "kpi_name": "kpi_top_mcc_categories",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Top merchant category codes by spend volume."
+    },
+    {
+      "kpi_name": "kpi_spending_by_weekday",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending patterns segmented by day of the week."
+    },
+    {
+      "kpi_name": "kpi_spending_by_day_of_month",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Spending patterns by calendar day (e.g., 1st to 31st)."
+    },
+    {
+      "kpi_name": "kpi_large_transaction_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Count of transactions above a high-value threshold."
+    },
+    {
+      "kpi_name": "kpi_recurring_payments",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Identifies fixed periodic payments (subscriptions, bills)."
+    },
+    {
+      "kpi_name": "kpi_merchant_city_concentration",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "How much spending is concentrated in specific cities."
+    },
+    {
+      "kpi_name": "kpi_transaction_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of transactions per time period (daily/weekly/monthly)."
+    },
+    {
+      "kpi_name": "kpi_account_activity_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Upward or downward trend in overall account usage over time."
+    },
+    {
+      "kpi_name": "kpi_dormant_periods",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Length and frequency of inactive periods without transactions."
+    },
+    {
+      "kpi_name": "kpi_transaction_velocity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Rate of transaction activity, often used for fraud detection."
+    },
+    {
+      "kpi_name": "kpi_weekday_vs_weekend_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Compares transaction volume between weekdays and weekends."
+    },
+    {
+      "kpi_name": "kpi_monthly_transaction_count",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Total number of transactions per month."
+    },
+    {
+      "kpi_name": "kpi_quarterly_spending_pattern",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Spending trends analyzed on a quarterly basis."
+    },
+    {
+      "kpi_name": "kpi_seasonal_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending variations tied to seasons or specific annual periods."
+    },
+    {
+      "kpi_name": "kpi_transaction_amount_distribution",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Statistical spread of transaction amounts (e.g., small vs. large)."
+    },
+    {
+      "kpi_name": "kpi_avg_daily_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average amount spent per calendar day."
+    },
+    {
+      "kpi_name": "kpi_domestic_vs_international",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Ratio of local to cross-border spending."
+    },
+    {
+      "kpi_name": "kpi_top_spending_cities",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Cities where the customer spends the most money."
+    },
+    {
+      "kpi_name": "kpi_geographic_dispersion",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spread of transaction locations across different regions."
+    },
+    {
+      "kpi_name": "kpi_cross_border_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions where merchant and cardholder are in different countries."
+    },
+    {
+      "kpi_name": "kpi_merchant_country_distribution",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Breakdown of spend by the merchant's country."
+    },
+    {
+      "kpi_name": "kpi_local_merchant_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much spending occurs with merchants in the cardholder's home area."
+    },
+    {
+      "kpi_name": "kpi_city_spending_patterns",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Spending behavior analyzed per city."
+    },
+    {
+      "kpi_name": "kpi_multi_city_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions spread across multiple cities in a short period."
+    },
+    {
+      "kpi_name": "kpi_merchant_category_analysis",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending breakdown by merchant category type."
+    },
+    {
+      "kpi_name": "kpi_top_merchants_by_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Merchants where the customer spends the most money."
+    },
+    {
+      "kpi_name": "kpi_merchant_diversity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of unique merchants visited over a period."
+    },
+    {
+      "kpi_name": "kpi_recurring_merchant_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Regular, repeated transactions with the same merchant."
+    },
+    {
+      "kpi_name": "kpi_new_merchant_adoption",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Rate at which the customer tries new merchants."
+    },
+    {
+      "kpi_name": "kpi_merchant_type_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Focus of spending on a specific merchant type or vertical."
+    },
+    {
+      "kpi_name": "kpi_premium_merchant_usage",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending at high-end or luxury merchants."
+    },
+    {
+      "kpi_name": "kpi_essential_vs_discretionary",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Ratio of essential (e.g., groceries, utilities) to discretionary (e.g., dining, travel) spending."
+    },
+    {
+      "kpi_name": "kpi_online_vs_offline_merchants",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Comparison of e-commerce vs. physical store transactions."
+    },
+    {
+      "kpi_name": "kpi_unusual_transaction_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Anomalous behavior not matching the customer's typical profile."
+    },
+    {
+      "kpi_name": "kpi_high_risk_mcc_monitoring",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tracks spend in high-risk merchant category codes."
+    },
+    {
+      "kpi_name": "kpi_after_hours_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transactions made during late night or early morning hours."
+    },
+    {
+      "kpi_name": "kpi_rapid_successive_transactions",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Multiple transactions occurring in very quick succession."
+    },
+    {
+      "kpi_name": "kpi_geographic_anomalies",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Locations that are unusual given the customer's history."
+    },
+    {
+      "kpi_name": "kpi_amount_anomalies",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Transaction amounts that deviate significantly from normal range."
+    },
+    {
+      "kpi_name": "kpi_velocity_analysis",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Rate of transactions as a fraud or risk indicator."
+    },
+    {
+      "kpi_name": "kpi_entry_mode_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk level associated with how a transaction was entered (e.g., manual vs. chip)."
+    },
+    {
+      "kpi_name": "kpi_holiday_season_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending behavior during major holiday periods."
+    },
+    {
+      "kpi_name": "kpi_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall composite risk score for the customer."
+    },
+    {
+      "kpi_name": "kpi_monthly_transfer_volume",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total amount of money transferred (in/out) per month."
+    },
+    {
+      "kpi_name": "kpi_avg_transfer_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average monetary value of each transfer."
+    },
+    {
+      "kpi_name": "kpi_large_transfer_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transfers above a large-value threshold."
+    },
+    {
+      "kpi_name": "kpi_transfer_count_by_weekday",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Number of transfers per weekday."
+    },
+    {
+      "kpi_name": "kpi_peak_transfer_hours",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Hours of the day when transfer activity is highest."
+    },
+    {
+      "kpi_name": "kpi_transfer_value_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spread of transfer amounts (small vs. large)."
+    },
+    {
+      "kpi_name": "kpi_net_flow_position",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Whether the customer is a net sender or receiver of funds."
+    },
+    {
+      "kpi_name": "kpi_transfer_frequency",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Number of transfers per time period."
+    },
+    {
+      "kpi_name": "kpi_value_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much total transfer value is concentrated in few transactions."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Breakdown by transfer type (e.g., ACH, wire, internal)."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_value_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Value concentration by specific transfer type."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How often each transfer type is used."
+    },
+    {
+      "kpi_name": "kpi_high_value_transfer_types",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transfer types that typically carry high values."
+    },
+    {
+      "kpi_name": "kpi_recurring_transfer_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Regular, repeating transfers (e.g., payroll, rent)."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_trends",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Changes in usage of different transfer types over time."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_seasonality",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Seasonal patterns in specific transfer types."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_risk_indicators",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Risk flags associated with particular transfer types."
+    },
+    {
+      "kpi_name": "kpi_internal_external_ratio",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Ratio of transfers within the same bank vs. to external banks."
+    },
+    {
+      "kpi_name": "kpi_internal_transfer_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total value of transfers between the customer's own accounts."
+    },
+    {
+      "kpi_name": "kpi_external_transfer_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total value of transfers to accounts at other banks."
+    },
+    {
+      "kpi_name": "kpi_most_frequent_counterparties",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Counterparties the customer transacts with most often."
+    },
+    {
+      "kpi_name": "kpi_counterparty_value_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How much total value is concentrated with few counterparties."
+    },
+    {
+      "kpi_name": "kpi_external_beneficiary_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Analysis of external beneficiaries receiving funds."
+    },
+    {
+      "kpi_name": "kpi_cross_border_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfers that cross international borders."
+    },
+    {
+      "kpi_name": "kpi_domestic_vs_international",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Ratio of domestic to international transfers."
+    },
+    {
+      "kpi_name": "kpi_geographic_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfer concentration in specific geographic regions."
+    },
+    {
+      "kpi_name": "kpi_debit_activity_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Trend in outgoing (debit) transfer activity over time."
+    },
+    {
+      "kpi_name": "kpi_net_flow_trend",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Change in net inflows vs. outflows over time."
+    },
+    {
+      "kpi_name": "kpi_behavioral_clustering",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Groups customers by similar transaction behavior patterns."
+    },
+    {
+      "kpi_name": "kpi_customer_segmentation",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Categorizes customers into segments based on behavior or value."
+    },
+    {
+      "kpi_name": "kpi_lifetime_value_estimate",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Predicted total value a customer will bring over the entire relationship."
+    },
+    {
+      "kpi_name": "kpi_churn_risk_assessment",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Probability that the customer will stop using the product."
+    },
+    {
+      "kpi_name": "kpi_relationship_depth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number and variety of products the customer holds."
+    },
+    {
+      "kpi_name": "kpi_product_penetration",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "How many of the available products the customer uses."
+    },
+    {
+      "kpi_name": "kpi_engagement_score",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Composite measure of how actively the customer uses the account."
+    },
+    {
+      "kpi_name": "kpi_unusual_transfer_patterns",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Transfer activity that deviates from the customer's normal behavior."
+    },
+    {
+      "kpi_name": "kpi_rapid_value_increases",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Sudden increases in transfer amounts over a short period."
+    },
+    {
+      "kpi_name": "kpi_after_hours_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transfer activity occurring outside normal business hours."
+    },
+    {
+      "kpi_name": "kpi_high_risk_counterparties",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions with counterparties flagged as high risk."
+    },
+    {
+      "kpi_name": "kpi_compliance_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Risk score related to regulatory compliance violations."
+    },
+    {
+      "kpi_name": "kpi_aml_risk_indicators",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Signals that may indicate anti-money laundering concerns."
+    },
+    {
+      "kpi_name": "kpi_fraud_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Likelihood that the customer is involved in fraudulent activity."
+    },
+    {
+      "kpi_name": "kpi_operational_risk_indicators",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Flags related to operational issues (e.g., failed transactions)."
+    },
+    {
+      "kpi_name": "kpi_concentration_risk",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Risk from over-reliance on a single product, channel, or counterparty."
+    },
+    {
+      "kpi_name": "kpi_overall_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Aggregate risk score combining multiple risk dimensions."
+    },
+    {
+      "kpi_name": "kpi_cds_total_count",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total number of Certificate of Deposit (CD) accounts held."
+    },
+    {
+      "kpi_name": "kpi_cds_total_principal",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total principal amount invested in CDs."
+    },
+    {
+      "kpi_name": "kpi_cds_avg_duration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average term length of CD investments."
+    },
+    {
+      "kpi_name": "kpi_cds_projected_interest",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Expected interest income from CDs over their lifetime."
+    },
+    {
+      "kpi_name": "kpi_cds_active_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Proportion of CDs that are currently active vs. matured."
+    },
+    {
+      "kpi_name": "kpi_cds_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Concentration of CD investments in a single institution or tenor."
+    },
+    {
+      "kpi_name": "kpi_cds_quantity_total",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total number of individual CD positions."
+    },
+    {
+      "kpi_name": "kpi_cds_growth_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month growth in CD holdings."
+    },
+    {
+      "kpi_name": "kpi_cds_currency_exposure",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Foreign currency exposure within CD investments."
+    },
+    {
+      "kpi_name": "kpi_cds_reinvestment_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk that maturing CDs will be reinvested at lower rates."
+    },
+    {
+      "kpi_name": "kpi_cds_liquidity_profile",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How quickly CD investments can be converted to cash without penalty."
+    },
+    {
+      "kpi_name": "kpi_overall_total_products",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total number of distinct products held by the customer."
+    },
+    {
+      "kpi_name": "kpi_overall_diversity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Variety of product types across the customer's portfolio."
+    },
+    {
+      "kpi_name": "kpi_overall_total_principal",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Sum of principal across all investment and deposit products."
+    },
+    {
+      "kpi_name": "kpi_overall_currency_dist",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Currency breakdown across all products."
+    },
+    {
+      "kpi_name": "kpi_overall_net_interest_income",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Net interest generated after costs and provisions."
+    },
+    {
+      "kpi_name": "kpi_overall_liquidity_gap",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Difference between short-term assets and liabilities."
+    },
+    {
+      "kpi_name": "kpi_overall_customer_tenure",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Length of time the customer has been with the bank."
+    },
+    {
+      "kpi_name": "kpi_overall_profitability_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall profit generated from the customer relationship."
+    },
+    {
+      "kpi_name": "kpi_overall_relationship_depth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of products and services used relative to available offerings."
+    },
+    {
+      "kpi_name": "liquidity_kpi",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Measures the customer's ability to meet short-term cash needs."
+    }
+  ],
+  "persona_id: 8018": [
+    {
+      "kpi_name": "monthly_spending_trend",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Month-over-month change in total card spending; indicates spending growth or decline."
+    },
+    {
+      "kpi_name": "avg_transaction_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average monetary amount per transaction; helps distinguish between many small purchases vs. few large ones."
+    },
+    {
+      "kpi_name": "top_mcc_categories",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Most frequent Merchant Category Codes (e.g., groceries, travel); reveals spending priorities."
+    },
+    {
+      "kpi_name": "currency_distribution",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Breakdown of transaction currencies; shows multi-currency usage."
+    },
+    {
+      "kpi_name": "cross_border_percentage",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Share of transactions where merchant country differs from cardholder's country."
+    },
+    {
+      "kpi_name": "spending_by_weekday",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average spend per weekday; identifies weekday vs. weekend patterns."
+    },
+    {
+      "kpi_name": "large_transaction_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transactions exceeding a predefined high-value threshold."
+    },
+    {
+      "kpi_name": "recurring_payments",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Identifies regular subscription or installment payments."
+    },
+    {
+      "kpi_name": "cash_advance_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How often the customer withdraws cash using the card."
+    },
+    {
+      "kpi_name": "overlimit_occurrences",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of times spending exceeded the credit limit."
+    },
+    {
+      "kpi_name": "ontime_payment_rate",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Percentage of payments made by the due date."
+    },
+    {
+      "kpi_name": "avg_days_past_due",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average number of days a payment is delayed when past due."
+    },
+    {
+      "kpi_name": "minimum_payment_pattern",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Tendency to pay only the minimum amount due each cycle."
+    },
+    {
+      "kpi_name": "balance_payoff_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Percentage of total balance paid off each month."
+    },
+    {
+      "kpi_name": "account_age_analysis",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "How long the account has been active; older accounts indicate stability."
+    },
+    {
+      "kpi_name": "dormant_account_identification",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Flags accounts with no transaction activity over a long period."
+    },
+    {
+      "kpi_name": "expired_card_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Proportion of transactions made with an expired card (often fraud indicator)."
+    },
+    {
+      "kpi_name": "domestic_vs_international",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Comparison of spending within home country vs. abroad."
+    },
+    {
+      "kpi_name": "top_spending_countries",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Countries where the customer spends the most."
+    },
+    {
+      "kpi_name": "currency_exposure_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk from holding or transacting in multiple foreign currencies."
+    },
+    {
+      "kpi_name": "geographic_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Degree to which spending is concentrated in one or few locations."
+    },
+    {
+      "kpi_name": "travel_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How often the customer makes transactions while traveling."
+    },
+    {
+      "kpi_name": "unusual_transaction_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Detects spending behavior that deviates from historical norms."
+    },
+    {
+      "kpi_name": "high_risk_mcc_monitoring",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tracks transactions in high-risk merchant categories (e.g., gambling, adult entertainment)."
+    },
+    {
+      "kpi_name": "rapid_spending_increases",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Sudden spikes in spending over a short time window."
+    },
+    {
+      "kpi_name": "after_hours_transactions",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transactions occurring outside normal business hours."
+    },
+    {
+      "kpi_name": "transaction_velocity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Rate of transactions per unit of time (e.g., per hour or per day)."
+    },
+    {
+      "kpi_name": "high_value_customers",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Customers with consistently high spending or profitability."
+    },
+    {
+      "kpi_name": "new_vs_established",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Compares new accounts to long-standing ones for risk/behavior differences."
+    },
+    {
+      "kpi_name": "spending_diversity",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Variety of merchant categories or transaction types used."
+    },
+    {
+      "kpi_name": "mom_spending_growth",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Month-over-month percentage growth in total spending."
+    },
+    {
+      "kpi_name": "seasonal_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Recurring spending peaks tied to holidays, seasons, or annual events."
+    },
+    {
+      "kpi_name": "transaction_count_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Change in the number of transactions over time."
+    },
+    {
+      "kpi_name": "customer_lifetime_value",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Projected total value a customer will generate over the entire relationship."
+    },
+    {
+      "kpi_name": "churn_probability",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Likelihood that the customer will close the account or stop using the product."
+    },
+    {
+      "kpi_name": "profitability_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall net profit generated by the customer after costs and risk."
+    },
+    {
+      "kpi_name": "kpi_avg_transaction_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average transaction amount; helps segment customers by purchase size."
+    },
+    {
+      "kpi_name": "kpi_entry_mode_distribution",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "How transactions are initiated (e.g., chip, swipe, manual key entry)."
+    },
+    {
+      "kpi_name": "kpi_top_mcc_categories",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Top merchant category codes by spend volume."
+    },
+    {
+      "kpi_name": "kpi_spending_by_weekday",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending patterns segmented by day of the week."
+    },
+    {
+      "kpi_name": "kpi_spending_by_day_of_month",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending patterns by calendar day (e.g., 1st to 31st)."
+    },
+    {
+      "kpi_name": "kpi_large_transaction_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Count of transactions above a high-value threshold."
+    },
+    {
+      "kpi_name": "kpi_recurring_payments",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Identifies fixed periodic payments (subscriptions, bills)."
+    },
+    {
+      "kpi_name": "kpi_merchant_city_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much spending is concentrated in specific cities."
+    },
+    {
+      "kpi_name": "kpi_transaction_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of transactions per time period (daily/weekly/monthly)."
+    },
+    {
+      "kpi_name": "kpi_dormant_periods",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Length and frequency of inactive periods without transactions."
+    },
+    {
+      "kpi_name": "kpi_transaction_velocity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Rate of transaction activity, often used for fraud detection."
+    },
+    {
+      "kpi_name": "kpi_weekday_vs_weekend_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Compares transaction volume between weekdays and weekends."
+    },
+    {
+      "kpi_name": "kpi_monthly_transaction_count",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total number of transactions per month."
+    },
+    {
+      "kpi_name": "kpi_quarterly_spending_pattern",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending trends analyzed on a quarterly basis."
+    },
+    {
+      "kpi_name": "kpi_seasonal_spending",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending variations tied to seasons or specific annual periods."
+    },
+    {
+      "kpi_name": "kpi_avg_daily_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average amount spent per calendar day."
+    },
+    {
+      "kpi_name": "kpi_domestic_vs_international",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Ratio of local to cross-border spending."
+    },
+    {
+      "kpi_name": "kpi_top_spending_cities",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Cities where the customer spends the most money."
+    },
+    {
+      "kpi_name": "kpi_geographic_dispersion",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spread of transaction locations across different regions."
+    },
+    {
+      "kpi_name": "kpi_cross_border_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions where merchant and cardholder are in different countries."
+    },
+    {
+      "kpi_name": "kpi_merchant_country_distribution",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Breakdown of spend by the merchant's country."
+    },
+    {
+      "kpi_name": "kpi_local_merchant_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much spending occurs with merchants in the cardholder's home area."
+    },
+    {
+      "kpi_name": "kpi_multi_city_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions spread across multiple cities in a short period."
+    },
+    {
+      "kpi_name": "kpi_merchant_category_analysis",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending breakdown by merchant category type."
+    },
+    {
+      "kpi_name": "kpi_top_merchants_by_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Merchants where the customer spends the most money."
+    },
+    {
+      "kpi_name": "kpi_merchant_diversity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of unique merchants visited over a period."
+    },
+    {
+      "kpi_name": "kpi_recurring_merchant_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Regular, repeated transactions with the same merchant."
+    },
+    {
+      "kpi_name": "kpi_merchant_type_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Focus of spending on a specific merchant type or vertical."
+    },
+    {
+      "kpi_name": "kpi_premium_merchant_usage",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending at high-end or luxury merchants."
+    },
+    {
+      "kpi_name": "kpi_essential_vs_discretionary",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Ratio of essential (e.g., groceries, utilities) to discretionary (e.g., dining, travel) spending."
+    },
+    {
+      "kpi_name": "kpi_online_vs_offline_merchants",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Comparison of e-commerce vs. physical store transactions."
+    },
+    {
+      "kpi_name": "kpi_unusual_transaction_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Anomalous behavior not matching the customer's typical profile."
+    },
+    {
+      "kpi_name": "kpi_high_risk_mcc_monitoring",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tracks spend in high-risk merchant category codes."
+    },
+    {
+      "kpi_name": "kpi_after_hours_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transactions made during late night or early morning hours."
+    },
+    {
+      "kpi_name": "kpi_rapid_successive_transactions",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Multiple transactions occurring in very quick succession."
+    },
+    {
+      "kpi_name": "kpi_geographic_anomalies",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Locations that are unusual given the customer's history."
+    },
+    {
+      "kpi_name": "kpi_amount_anomalies",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transaction amounts that deviate significantly from normal range."
+    },
+    {
+      "kpi_name": "kpi_entry_mode_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk level associated with how a transaction was entered (e.g., manual vs. chip)."
+    },
+    {
+      "kpi_name": "kpi_holiday_season_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending behavior during major holiday periods."
+    },
+    {
+      "kpi_name": "kpi_risk_score",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Overall composite risk score for the customer."
+    },
+    {
+      "kpi_name": "kpi_monthly_transfer_volume",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total amount of money transferred (in/out) per month."
+    },
+    {
+      "kpi_name": "kpi_avg_transfer_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average monetary value of each transfer."
+    },
+    {
+      "kpi_name": "kpi_large_transfer_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transfers above a large-value threshold."
+    },
+    {
+      "kpi_name": "kpi_transfer_count_by_weekday",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Number of transfers per weekday."
+    },
+    {
+      "kpi_name": "kpi_peak_transfer_hours",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Hours of the day when transfer activity is highest."
+    },
+    {
+      "kpi_name": "kpi_transfer_value_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spread of transfer amounts (small vs. large)."
+    },
+    {
+      "kpi_name": "kpi_net_flow_position",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Whether the customer is a net sender or receiver of funds."
+    },
+    {
+      "kpi_name": "kpi_transfer_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transfers per time period."
+    },
+    {
+      "kpi_name": "kpi_value_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much total transfer value is concentrated in few transactions."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Breakdown by transfer type (e.g., ACH, wire, internal)."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_value_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Value concentration by specific transfer type."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How often each transfer type is used."
+    },
+    {
+      "kpi_name": "kpi_high_value_transfer_types",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfer types that typically carry high values."
+    },
+    {
+      "kpi_name": "kpi_recurring_transfer_patterns",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Regular, repeating transfers (e.g., payroll, rent)."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_trends",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Changes in usage of different transfer types over time."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_seasonality",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Seasonal patterns in specific transfer types."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_risk_indicators",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Risk flags associated with particular transfer types."
+    },
+    {
+      "kpi_name": "kpi_internal_external_ratio",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Ratio of transfers within the same bank vs. to external banks."
+    },
+    {
+      "kpi_name": "kpi_internal_transfer_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total value of transfers between the customer's own accounts."
+    },
+    {
+      "kpi_name": "kpi_external_transfer_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total value of transfers to accounts at other banks."
+    },
+    {
+      "kpi_name": "kpi_most_frequent_counterparties",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Counterparties the customer transacts with most often."
+    },
+    {
+      "kpi_name": "kpi_counterparty_value_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How much total value is concentrated with few counterparties."
+    },
+    {
+      "kpi_name": "kpi_external_beneficiary_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Analysis of external beneficiaries receiving funds."
+    },
+    {
+      "kpi_name": "kpi_cross_border_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfers that cross international borders."
+    },
+    {
+      "kpi_name": "kpi_domestic_vs_international",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Ratio of domestic to international transfers."
+    },
+    {
+      "kpi_name": "kpi_geographic_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfer concentration in specific geographic regions."
+    },
+    {
+      "kpi_name": "kpi_debit_activity_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Trend in outgoing (debit) transfer activity over time."
+    },
+    {
+      "kpi_name": "kpi_net_flow_trend",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Change in net inflows vs. outflows over time."
+    },
+    {
+      "kpi_name": "kpi_behavioral_clustering",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Groups customers by similar transaction behavior patterns."
+    },
+    {
+      "kpi_name": "kpi_customer_segmentation",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Categorizes customers into segments based on behavior or value."
+    },
+    {
+      "kpi_name": "kpi_lifetime_value_estimate",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Predicted total value a customer will bring over the entire relationship."
+    },
+    {
+      "kpi_name": "kpi_churn_risk_assessment",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Probability that the customer will stop using the product."
+    },
+    {
+      "kpi_name": "kpi_relationship_depth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number and variety of products the customer holds."
+    },
+    {
+      "kpi_name": "kpi_product_penetration",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "How many of the available products the customer uses."
+    },
+    {
+      "kpi_name": "kpi_engagement_score",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Composite measure of how actively the customer uses the account."
+    },
+    {
+      "kpi_name": "kpi_unusual_transfer_patterns",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Transfer activity that deviates from the customer's normal behavior."
+    },
+    {
+      "kpi_name": "kpi_rapid_value_increases",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Sudden increases in transfer amounts over a short period."
+    },
+    {
+      "kpi_name": "kpi_after_hours_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transfer activity occurring outside normal business hours."
+    },
+    {
+      "kpi_name": "kpi_high_risk_counterparties",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions with counterparties flagged as high risk."
+    },
+    {
+      "kpi_name": "kpi_compliance_risk_score",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Risk score related to regulatory compliance violations."
+    },
+    {
+      "kpi_name": "kpi_aml_risk_indicators",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Signals that may indicate anti-money laundering concerns."
+    },
+    {
+      "kpi_name": "kpi_fraud_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Likelihood that the customer is involved in fraudulent activity."
+    },
+    {
+      "kpi_name": "kpi_operational_risk_indicators",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Flags related to operational issues (e.g., failed transactions)."
+    },
+    {
+      "kpi_name": "kpi_concentration_risk",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Risk from over-reliance on a single product, channel, or counterparty."
+    },
+    {
+      "kpi_name": "kpi_overall_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Aggregate risk score combining multiple risk dimensions."
+    },
+    {
+      "kpi_name": "kpi_cds_total_count",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total number of Certificate of Deposit (CD) accounts held."
+    },
+    {
+      "kpi_name": "kpi_cds_total_principal",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total principal amount invested in CDs."
+    },
+    {
+      "kpi_name": "kpi_cds_avg_duration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average term length of CD investments."
+    },
+    {
+      "kpi_name": "kpi_cds_projected_interest",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Expected interest income from CDs over their lifetime."
+    },
+    {
+      "kpi_name": "kpi_cds_active_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Proportion of CDs that are currently active vs. matured."
+    },
+    {
+      "kpi_name": "kpi_cds_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Concentration of CD investments in a single institution or tenor."
+    },
+    {
+      "kpi_name": "kpi_cds_quantity_total",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total number of individual CD positions."
+    },
+    {
+      "kpi_name": "kpi_cds_growth_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month growth in CD holdings."
+    },
+    {
+      "kpi_name": "kpi_cds_currency_exposure",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Foreign currency exposure within CD investments."
+    },
+    {
+      "kpi_name": "kpi_cds_reinvestment_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk that maturing CDs will be reinvested at lower rates."
+    },
+    {
+      "kpi_name": "kpi_cds_liquidity_profile",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How quickly CD investments can be converted to cash without penalty."
+    },
+    {
+      "kpi_name": "kpi_overall_total_products",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total number of distinct products held by the customer."
+    },
+    {
+      "kpi_name": "kpi_overall_diversity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Variety of product types across the customer's portfolio."
+    },
+    {
+      "kpi_name": "kpi_overall_total_principal",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Sum of principal across all investment and deposit products."
+    },
+    {
+      "kpi_name": "kpi_overall_currency_dist",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Currency breakdown across all products."
+    },
+    {
+      "kpi_name": "kpi_overall_net_interest_income",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Net interest generated after costs and provisions."
+    },
+    {
+      "kpi_name": "kpi_overall_liquidity_gap",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Difference between short-term assets and liabilities."
+    },
+    {
+      "kpi_name": "kpi_overall_customer_tenure",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Length of time the customer has been with the bank."
+    },
+    {
+      "kpi_name": "kpi_overall_profitability_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall profit generated from the customer relationship."
+    },
+    {
+      "kpi_name": "kpi_overall_relationship_depth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of products and services used relative to available offerings."
+    },
+    {
+      "kpi_name": "liquidity_kpi",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Measures the customer's ability to meet short-term cash needs."
+    }
+  ],
+  "persona_id: 16665": [
+    {
+      "kpi_name": "currency_exposure_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk from holding or transacting in multiple foreign currencies."
+    },
+    {
+      "kpi_name": "monthly_spending_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month change in total card spending; indicates spending growth or decline."
+    },
+    {
+      "kpi_name": "avg_transaction_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average monetary amount per transaction; helps distinguish between many small purchases vs. few large ones."
+    },
+    {
+      "kpi_name": "top_mcc_categories",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Most frequent Merchant Category Codes (e.g., groceries, travel); reveals spending priorities."
+    },
+    {
+      "kpi_name": "currency_distribution",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Breakdown of transaction currencies; shows multi-currency usage."
+    },
+    {
+      "kpi_name": "cross_border_percentage",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Share of transactions where merchant country differs from cardholder's country."
+    },
+    {
+      "kpi_name": "spending_by_weekday",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average spend per weekday; identifies weekday vs. weekend patterns."
+    },
+    {
+      "kpi_name": "large_transaction_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transactions exceeding a predefined high-value threshold."
+    },
+    {
+      "kpi_name": "recurring_payments",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Identifies regular subscription or installment payments."
+    },
+    {
+      "kpi_name": "cash_advance_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How often the customer withdraws cash using the card."
+    },
+    {
+      "kpi_name": "overlimit_occurrences",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of times spending exceeded the credit limit."
+    },
+    {
+      "kpi_name": "ontime_payment_rate",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Percentage of payments made by the due date."
+    },
+    {
+      "kpi_name": "avg_days_past_due",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average number of days a payment is delayed when past due."
+    },
+    {
+      "kpi_name": "minimum_payment_pattern",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Tendency to pay only the minimum amount due each cycle."
+    },
+    {
+      "kpi_name": "balance_payoff_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Percentage of total balance paid off each month."
+    },
+    {
+      "kpi_name": "account_age_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How long the account has been active; older accounts indicate stability."
+    },
+    {
+      "kpi_name": "dormant_account_identification",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Flags accounts with no transaction activity over a long period."
+    },
+    {
+      "kpi_name": "expired_card_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Proportion of transactions made with an expired card (often fraud indicator)."
+    },
+    {
+      "kpi_name": "domestic_vs_international",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Comparison of spending within home country vs. abroad."
+    },
+    {
+      "kpi_name": "top_spending_countries",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Countries where the customer spends the most."
+    },
+    {
+      "kpi_name": "geographic_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Degree to which spending is concentrated in one or few locations."
+    },
+    {
+      "kpi_name": "travel_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How often the customer makes transactions while traveling."
+    },
+    {
+      "kpi_name": "unusual_transaction_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Detects spending behavior that deviates from historical norms."
+    },
+    {
+      "kpi_name": "high_risk_mcc_monitoring",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tracks transactions in high-risk merchant categories (e.g., gambling, adult entertainment)."
+    },
+    {
+      "kpi_name": "rapid_spending_increases",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Sudden spikes in spending over a short time window."
+    },
+    {
+      "kpi_name": "after_hours_transactions",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transactions occurring outside normal business hours."
+    },
+    {
+      "kpi_name": "transaction_velocity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Rate of transactions per unit of time (e.g., per hour or per day)."
+    },
+    {
+      "kpi_name": "high_value_customers",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Customers with consistently high spending or profitability."
+    },
+    {
+      "kpi_name": "new_vs_established",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Compares new accounts to long-standing ones for risk/behavior differences."
+    },
+    {
+      "kpi_name": "spending_diversity",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Variety of merchant categories or transaction types used."
+    },
+    {
+      "kpi_name": "mom_spending_growth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month percentage growth in total spending."
+    },
+    {
+      "kpi_name": "seasonal_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Recurring spending peaks tied to holidays, seasons, or annual events."
+    },
+    {
+      "kpi_name": "transaction_count_trend",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Change in the number of transactions over time."
+    },
+    {
+      "kpi_name": "customer_lifetime_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Projected total value a customer will generate over the entire relationship."
+    },
+    {
+      "kpi_name": "churn_probability",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Likelihood that the customer will close the account or stop using the product."
+    },
+    {
+      "kpi_name": "profitability_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall net profit generated by the customer after costs and risk."
+    },
+    {
+      "kpi_name": "kpi_avg_transaction_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average transaction amount; helps segment customers by purchase size."
+    },
+    {
+      "kpi_name": "kpi_entry_mode_distribution",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "How transactions are initiated (e.g., chip, swipe, manual key entry)."
+    },
+    {
+      "kpi_name": "kpi_top_mcc_categories",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Top merchant category codes by spend volume."
+    },
+    {
+      "kpi_name": "kpi_spending_by_weekday",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending patterns segmented by day of the week."
+    },
+    {
+      "kpi_name": "kpi_spending_by_day_of_month",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending patterns by calendar day (e.g., 1st to 31st)."
+    },
+    {
+      "kpi_name": "kpi_large_transaction_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Count of transactions above a high-value threshold."
+    },
+    {
+      "kpi_name": "kpi_recurring_payments",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Identifies fixed periodic payments (subscriptions, bills)."
+    },
+    {
+      "kpi_name": "kpi_merchant_city_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much spending is concentrated in specific cities."
+    },
+    {
+      "kpi_name": "kpi_transaction_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of transactions per time period (daily/weekly/monthly)."
+    },
+    {
+      "kpi_name": "kpi_dormant_periods",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Length and frequency of inactive periods without transactions."
+    },
+    {
+      "kpi_name": "kpi_transaction_velocity",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Rate of transaction activity, often used for fraud detection."
+    },
+    {
+      "kpi_name": "kpi_weekday_vs_weekend_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Compares transaction volume between weekdays and weekends."
+    },
+    {
+      "kpi_name": "kpi_monthly_transaction_count",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Total number of transactions per month."
+    },
+    {
+      "kpi_name": "kpi_quarterly_spending_pattern",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending trends analyzed on a quarterly basis."
+    },
+    {
+      "kpi_name": "kpi_seasonal_spending",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending variations tied to seasons or specific annual periods."
+    },
+    {
+      "kpi_name": "kpi_avg_daily_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average amount spent per calendar day."
+    },
+    {
+      "kpi_name": "kpi_domestic_vs_international",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Ratio of local to cross-border spending."
+    },
+    {
+      "kpi_name": "kpi_top_spending_cities",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Cities where the customer spends the most money."
+    },
+    {
+      "kpi_name": "kpi_geographic_dispersion",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spread of transaction locations across different regions."
+    },
+    {
+      "kpi_name": "kpi_cross_border_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions where merchant and cardholder are in different countries."
+    },
+    {
+      "kpi_name": "kpi_merchant_country_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Breakdown of spend by the merchant's country."
+    },
+    {
+      "kpi_name": "kpi_local_merchant_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much spending occurs with merchants in the cardholder's home area."
+    },
+    {
+      "kpi_name": "kpi_city_spending_patterns",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending behavior analyzed per city."
+    },
+    {
+      "kpi_name": "kpi_multi_city_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions spread across multiple cities in a short period."
+    },
+    {
+      "kpi_name": "kpi_merchant_category_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending breakdown by merchant category type."
+    },
+    {
+      "kpi_name": "kpi_top_merchants_by_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Merchants where the customer spends the most money."
+    },
+    {
+      "kpi_name": "kpi_merchant_diversity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of unique merchants visited over a period."
+    },
+    {
+      "kpi_name": "kpi_recurring_merchant_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Regular, repeated transactions with the same merchant."
+    },
+    {
+      "kpi_name": "kpi_merchant_type_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Focus of spending on a specific merchant type or vertical."
+    },
+    {
+      "kpi_name": "kpi_premium_merchant_usage",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending at high-end or luxury merchants."
+    },
+    {
+      "kpi_name": "kpi_essential_vs_discretionary",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Ratio of essential (e.g., groceries, utilities) to discretionary (e.g., dining, travel) spending."
+    },
+    {
+      "kpi_name": "kpi_online_vs_offline_merchants",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Comparison of e-commerce vs. physical store transactions."
+    },
+    {
+      "kpi_name": "kpi_unusual_transaction_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Anomalous behavior not matching the customer's typical profile."
+    },
+    {
+      "kpi_name": "kpi_high_risk_mcc_monitoring",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tracks spend in high-risk merchant category codes."
+    },
+    {
+      "kpi_name": "kpi_after_hours_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transactions made during late night or early morning hours."
+    },
+    {
+      "kpi_name": "kpi_rapid_successive_transactions",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Multiple transactions occurring in very quick succession."
+    },
+    {
+      "kpi_name": "kpi_geographic_anomalies",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Locations that are unusual given the customer's history."
+    },
+    {
+      "kpi_name": "kpi_amount_anomalies",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transaction amounts that deviate significantly from normal range."
+    },
+    {
+      "kpi_name": "kpi_entry_mode_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk level associated with how a transaction was entered (e.g., manual vs. chip)."
+    },
+    {
+      "kpi_name": "kpi_holiday_season_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending behavior during major holiday periods."
+    },
+    {
+      "kpi_name": "kpi_risk_score",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Overall composite risk score for the customer."
+    },
+    {
+      "kpi_name": "kpi_monthly_transfer_volume",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total amount of money transferred (in/out) per month."
+    },
+    {
+      "kpi_name": "kpi_avg_transfer_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average monetary value of each transfer."
+    },
+    {
+      "kpi_name": "kpi_large_transfer_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transfers above a large-value threshold."
+    },
+    {
+      "kpi_name": "kpi_transfer_count_by_weekday",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Number of transfers per weekday."
+    },
+    {
+      "kpi_name": "kpi_peak_transfer_hours",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Hours of the day when transfer activity is highest."
+    },
+    {
+      "kpi_name": "kpi_transfer_value_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spread of transfer amounts (small vs. large)."
+    },
+    {
+      "kpi_name": "kpi_net_flow_position",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Whether the customer is a net sender or receiver of funds."
+    },
+    {
+      "kpi_name": "kpi_transfer_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transfers per time period."
+    },
+    {
+      "kpi_name": "kpi_value_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How much total transfer value is concentrated in few transactions."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Breakdown by transfer type (e.g., ACH, wire, internal)."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_value_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Value concentration by specific transfer type."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How often each transfer type is used."
+    },
+    {
+      "kpi_name": "kpi_high_value_transfer_types",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfer types that typically carry high values."
+    },
+    {
+      "kpi_name": "kpi_recurring_transfer_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Regular, repeating transfers (e.g., payroll, rent)."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_trends",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Changes in usage of different transfer types over time."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_seasonality",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Seasonal patterns in specific transfer types."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_risk_indicators",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Risk flags associated with particular transfer types."
+    },
+    {
+      "kpi_name": "kpi_internal_external_ratio",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Ratio of transfers within the same bank vs. to external banks."
+    },
+    {
+      "kpi_name": "kpi_internal_transfer_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total value of transfers between the customer's own accounts."
+    },
+    {
+      "kpi_name": "kpi_external_transfer_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total value of transfers to accounts at other banks."
+    },
+    {
+      "kpi_name": "kpi_most_frequent_counterparties",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Counterparties the customer transacts with most often."
+    },
+    {
+      "kpi_name": "kpi_counterparty_value_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How much total value is concentrated with few counterparties."
+    },
+    {
+      "kpi_name": "kpi_external_beneficiary_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Analysis of external beneficiaries receiving funds."
+    },
+    {
+      "kpi_name": "kpi_cross_border_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfers that cross international borders."
+    },
+    {
+      "kpi_name": "kpi_domestic_vs_international",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Ratio of domestic to international transfers."
+    },
+    {
+      "kpi_name": "kpi_geographic_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfer concentration in specific geographic regions."
+    },
+    {
+      "kpi_name": "kpi_debit_activity_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Trend in outgoing (debit) transfer activity over time."
+    },
+    {
+      "kpi_name": "kpi_net_flow_trend",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Change in net inflows vs. outflows over time."
+    },
+    {
+      "kpi_name": "kpi_behavioral_clustering",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Groups customers by similar transaction behavior patterns."
+    },
+    {
+      "kpi_name": "kpi_customer_segmentation",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Categorizes customers into segments based on behavior or value."
+    },
+    {
+      "kpi_name": "kpi_lifetime_value_estimate",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Predicted total value a customer will bring over the entire relationship."
+    },
+    {
+      "kpi_name": "kpi_churn_risk_assessment",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Probability that the customer will stop using the product."
+    },
+    {
+      "kpi_name": "kpi_relationship_depth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number and variety of products the customer holds."
+    },
+    {
+      "kpi_name": "kpi_product_penetration",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "How many of the available products the customer uses."
+    },
+    {
+      "kpi_name": "kpi_engagement_score",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Composite measure of how actively the customer uses the account."
+    },
+    {
+      "kpi_name": "kpi_unusual_transfer_patterns",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Transfer activity that deviates from the customer's normal behavior."
+    },
+    {
+      "kpi_name": "kpi_rapid_value_increases",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Sudden increases in transfer amounts over a short period."
+    },
+    {
+      "kpi_name": "kpi_after_hours_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transfer activity occurring outside normal business hours."
+    },
+    {
+      "kpi_name": "kpi_high_risk_counterparties",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions with counterparties flagged as high risk."
+    },
+    {
+      "kpi_name": "kpi_compliance_risk_score",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Risk score related to regulatory compliance violations."
+    },
+    {
+      "kpi_name": "kpi_aml_risk_indicators",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Signals that may indicate anti-money laundering concerns."
+    },
+    {
+      "kpi_name": "kpi_fraud_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Likelihood that the customer is involved in fraudulent activity."
+    },
+    {
+      "kpi_name": "kpi_operational_risk_indicators",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Flags related to operational issues (e.g., failed transactions)."
+    },
+    {
+      "kpi_name": "kpi_concentration_risk",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Risk from over-reliance on a single product, channel, or counterparty."
+    },
+    {
+      "kpi_name": "kpi_overall_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Aggregate risk score combining multiple risk dimensions."
+    },
+    {
+      "kpi_name": "kpi_cds_total_count",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total number of Certificate of Deposit (CD) accounts held."
+    },
+    {
+      "kpi_name": "kpi_cds_total_principal",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total principal amount invested in CDs."
+    },
+    {
+      "kpi_name": "kpi_cds_avg_duration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average term length of CD investments."
+    },
+    {
+      "kpi_name": "kpi_cds_projected_interest",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Expected interest income from CDs over their lifetime."
+    },
+    {
+      "kpi_name": "kpi_cds_active_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Proportion of CDs that are currently active vs. matured."
+    },
+    {
+      "kpi_name": "kpi_cds_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Concentration of CD investments in a single institution or tenor."
+    },
+    {
+      "kpi_name": "kpi_cds_quantity_total",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total number of individual CD positions."
+    },
+    {
+      "kpi_name": "kpi_cds_growth_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month growth in CD holdings."
+    },
+    {
+      "kpi_name": "kpi_cds_currency_exposure",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Foreign currency exposure within CD investments."
+    },
+    {
+      "kpi_name": "kpi_cds_reinvestment_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk that maturing CDs will be reinvested at lower rates."
+    },
+    {
+      "kpi_name": "kpi_cds_liquidity_profile",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How quickly CD investments can be converted to cash without penalty."
+    },
+    {
+      "kpi_name": "kpi_overall_total_products",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total number of distinct products held by the customer."
+    },
+    {
+      "kpi_name": "kpi_overall_diversity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Variety of product types across the customer's portfolio."
+    },
+    {
+      "kpi_name": "kpi_overall_total_principal",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Sum of principal across all investment and deposit products."
+    },
+    {
+      "kpi_name": "kpi_overall_currency_dist",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Currency breakdown across all products."
+    },
+    {
+      "kpi_name": "kpi_overall_net_interest_income",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Net interest generated after costs and provisions."
+    },
+    {
+      "kpi_name": "kpi_overall_liquidity_gap",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Difference between short-term assets and liabilities."
+    },
+    {
+      "kpi_name": "kpi_overall_customer_tenure",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Length of time the customer has been with the bank."
+    },
+    {
+      "kpi_name": "kpi_overall_profitability_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall profit generated from the customer relationship."
+    },
+    {
+      "kpi_name": "kpi_overall_relationship_depth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of products and services used relative to available offerings."
+    },
+    {
+      "kpi_name": "liquidity_kpi",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Measures the customer's ability to meet short-term cash needs."
+    }
+  ],
+  "persona_id: 20551": [
+    {
+      "kpi_name": "kpi_monthly_transaction_count",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Total number of transactions per month."
+    },
+    {
+      "kpi_name": "kpi_quarterly_spending_pattern",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Spending trends analyzed on a quarterly basis."
+    },
+    {
+      "kpi_name": "kpi_essential_vs_discretionary",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Ratio of essential (e.g., groceries, utilities) to discretionary (e.g., dining, travel) spending."
+    },
+    {
+      "kpi_name": "kpi_large_transfer_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transfers above a large-value threshold."
+    },
+    {
+      "kpi_name": "kpi_overall_diversity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Variety of product types across the customer's portfolio."
+    },
+    {
+      "kpi_name": "kpi_cds_upcoming_maturities",
+      "relative_position": null,
+      "confidence": null,
+      "description": "CDs that are scheduled to mature in the near future."
+    },
+    {
+      "kpi_name": "kpi_cds_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Concentration of CD investments in a single institution or tenor."
+    },
+    {
+      "kpi_name": "churn_probability",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Likelihood that the customer will close the account or stop using the product."
+    },
+    {
+      "kpi_name": "profitability_score",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Overall net profit generated by the customer after costs and risk."
+    },
+    {
+      "kpi_name": "kpi_large_transaction_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Count of transactions above a high-value threshold."
+    },
+    {
+      "kpi_name": "kpi_weekday_vs_weekend_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Compares transaction volume between weekdays and weekends."
+    },
+    {
+      "kpi_name": "kpi_overall_relationship_depth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of products and services used relative to available offerings."
+    },
+    {
+      "kpi_name": "monthly_spending_trend",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Month-over-month change in total card spending; indicates spending growth or decline."
+    },
+    {
+      "kpi_name": "avg_transaction_value",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Average monetary amount per transaction; helps distinguish between many small purchases vs. few large ones."
+    },
+    {
+      "kpi_name": "top_mcc_categories",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Most frequent Merchant Category Codes (e.g., groceries, travel); reveals spending priorities."
+    },
+    {
+      "kpi_name": "spending_by_weekday",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average spend per weekday; identifies weekday vs. weekend patterns."
+    },
+    {
+      "kpi_name": "large_transaction_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transactions exceeding a predefined high-value threshold."
+    },
+    {
+      "kpi_name": "recurring_payments",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Identifies regular subscription or installment payments."
+    },
+    {
+      "kpi_name": "minimum_payment_pattern",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tendency to pay only the minimum amount due each cycle."
+    },
+    {
+      "kpi_name": "balance_payoff_ratio",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Percentage of total balance paid off each month."
+    },
+    {
+      "kpi_name": "dormant_account_identification",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Flags accounts with no transaction activity over a long period."
+    },
+    {
+      "kpi_name": "unusual_transaction_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Detects spending behavior that deviates from historical norms."
+    },
+    {
+      "kpi_name": "high_risk_mcc_monitoring",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tracks transactions in high-risk merchant categories (e.g., gambling, adult entertainment)."
+    },
+    {
+      "kpi_name": "rapid_spending_increases",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Sudden spikes in spending over a short time window."
+    },
+    {
+      "kpi_name": "after_hours_transactions",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transactions occurring outside normal business hours."
+    },
+    {
+      "kpi_name": "transaction_velocity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Rate of transactions per unit of time (e.g., per hour or per day)."
+    },
+    {
+      "kpi_name": "high_value_customers",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Customers with consistently high spending or profitability."
+    },
+    {
+      "kpi_name": "spending_diversity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Variety of merchant categories or transaction types used."
+    },
+    {
+      "kpi_name": "mom_spending_growth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month percentage growth in total spending."
+    },
+    {
+      "kpi_name": "yoy_spending_comparison",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Year-over-year change in total spending."
+    },
+    {
+      "kpi_name": "seasonal_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Recurring spending peaks tied to holidays, seasons, or annual events."
+    },
+    {
+      "kpi_name": "transaction_count_trend",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Change in the number of transactions over time."
+    },
+    {
+      "kpi_name": "customer_lifetime_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Projected total value a customer will generate over the entire relationship."
+    },
+    {
+      "kpi_name": "kpi_monthly_spending_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Similar to monthly_spending_trend; tracks total spend changes month to month."
+    },
+    {
+      "kpi_name": "kpi_avg_transaction_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average transaction amount; helps segment customers by purchase size."
+    },
+    {
+      "kpi_name": "kpi_entry_mode_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How transactions are initiated (e.g., chip, swipe, manual key entry)."
+    },
+    {
+      "kpi_name": "kpi_top_mcc_categories",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Top merchant category codes by spend volume."
+    },
+    {
+      "kpi_name": "kpi_spending_by_weekday",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Spending patterns segmented by day of the week."
+    },
+    {
+      "kpi_name": "kpi_spending_by_day_of_month",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending patterns by calendar day (e.g., 1st to 31st)."
+    },
+    {
+      "kpi_name": "kpi_recurring_payments",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Identifies fixed periodic payments (subscriptions, bills)."
+    },
+    {
+      "kpi_name": "kpi_merchant_city_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much spending is concentrated in specific cities."
+    },
+    {
+      "kpi_name": "kpi_transaction_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number of transactions per time period (daily/weekly/monthly)."
+    },
+    {
+      "kpi_name": "kpi_account_activity_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Upward or downward trend in overall account usage over time."
+    },
+    {
+      "kpi_name": "kpi_dormant_periods",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Length and frequency of inactive periods without transactions."
+    },
+    {
+      "kpi_name": "kpi_transaction_velocity",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Rate of transaction activity, often used for fraud detection."
+    },
+    {
+      "kpi_name": "kpi_seasonal_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Spending variations tied to seasons or specific annual periods."
+    },
+    {
+      "kpi_name": "kpi_transaction_amount_distribution",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Statistical spread of transaction amounts (e.g., small vs. large)."
+    },
+    {
+      "kpi_name": "kpi_avg_daily_spending",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average amount spent per calendar day."
+    },
+    {
+      "kpi_name": "kpi_domestic_vs_international",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Ratio of local to cross-border spending."
+    },
+    {
+      "kpi_name": "kpi_top_spending_cities",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Cities where the customer spends the most money."
+    },
+    {
+      "kpi_name": "kpi_geographic_dispersion",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spread of transaction locations across different regions."
+    },
+    {
+      "kpi_name": "kpi_cross_border_activity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions where merchant and cardholder are in different countries."
+    },
+    {
+      "kpi_name": "kpi_merchant_country_distribution",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Breakdown of spend by the merchant's country."
+    },
+    {
+      "kpi_name": "kpi_local_merchant_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How much spending occurs with merchants in the cardholder's home area."
+    },
+    {
+      "kpi_name": "kpi_city_spending_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending behavior analyzed per city."
+    },
+    {
+      "kpi_name": "kpi_multi_city_activity",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Transactions spread across multiple cities in a short period."
+    },
+    {
+      "kpi_name": "kpi_merchant_category_analysis",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Spending breakdown by merchant category type."
+    },
+    {
+      "kpi_name": "kpi_top_merchants_by_spending",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Merchants where the customer spends the most money."
+    },
+    {
+      "kpi_name": "kpi_merchant_diversity",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of unique merchants visited over a period."
+    },
+    {
+      "kpi_name": "kpi_recurring_merchant_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Regular, repeated transactions with the same merchant."
+    },
+    {
+      "kpi_name": "kpi_new_merchant_adoption",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Rate at which the customer tries new merchants."
+    },
+    {
+      "kpi_name": "kpi_merchant_type_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Focus of spending on a specific merchant type or vertical."
+    },
+    {
+      "kpi_name": "kpi_premium_merchant_usage",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spending at high-end or luxury merchants."
+    },
+    {
+      "kpi_name": "kpi_online_vs_offline_merchants",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Comparison of e-commerce vs. physical store transactions."
+    },
+    {
+      "kpi_name": "kpi_unusual_transaction_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Anomalous behavior not matching the customer's typical profile."
+    },
+    {
+      "kpi_name": "kpi_high_risk_mcc_monitoring",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Tracks spend in high-risk merchant category codes."
+    },
+    {
+      "kpi_name": "kpi_after_hours_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transactions made during late night or early morning hours."
+    },
+    {
+      "kpi_name": "kpi_rapid_successive_transactions",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Multiple transactions occurring in very quick succession."
+    },
+    {
+      "kpi_name": "kpi_geographic_anomalies",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Locations that are unusual given the customer's history."
+    },
+    {
+      "kpi_name": "kpi_amount_anomalies",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transaction amounts that deviate significantly from normal range."
+    },
+    {
+      "kpi_name": "kpi_velocity_analysis",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Rate of transactions as a fraud or risk indicator."
+    },
+    {
+      "kpi_name": "kpi_entry_mode_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk level associated with how a transaction was entered (e.g., manual vs. chip)."
+    },
+    {
+      "kpi_name": "kpi_holiday_season_activity",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Spending behavior during major holiday periods."
+    },
+    {
+      "kpi_name": "kpi_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall composite risk score for the customer."
+    },
+    {
+      "kpi_name": "kpi_monthly_transfer_volume",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total amount of money transferred (in/out) per month."
+    },
+    {
+      "kpi_name": "kpi_avg_transfer_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Average monetary value of each transfer."
+    },
+    {
+      "kpi_name": "kpi_transfer_count_by_weekday",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Number of transfers per weekday."
+    },
+    {
+      "kpi_name": "kpi_peak_transfer_hours",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Hours of the day when transfer activity is highest."
+    },
+    {
+      "kpi_name": "kpi_transfer_value_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Spread of transfer amounts (small vs. large)."
+    },
+    {
+      "kpi_name": "kpi_net_flow_position",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Whether the customer is a net sender or receiver of funds."
+    },
+    {
+      "kpi_name": "kpi_transfer_frequency",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Number of transfers per time period."
+    },
+    {
+      "kpi_name": "kpi_value_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How much total transfer value is concentrated in few transactions."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_distribution",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Breakdown by transfer type (e.g., ACH, wire, internal)."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_value_concentration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Value concentration by specific transfer type."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_frequency",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "How often each transfer type is used."
+    },
+    {
+      "kpi_name": "kpi_high_value_transfer_types",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Transfer types that typically carry high values."
+    },
+    {
+      "kpi_name": "kpi_recurring_transfer_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Regular, repeating transfers (e.g., payroll, rent)."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_trends",
+      "relative_position": "worst",
+      "confidence": "medium",
+      "description": "Changes in usage of different transfer types over time."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_seasonality",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Seasonal patterns in specific transfer types."
+    },
+    {
+      "kpi_name": "kpi_transfer_type_risk_indicators",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Risk flags associated with particular transfer types."
+    },
+    {
+      "kpi_name": "kpi_internal_external_ratio",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Ratio of transfers within the same bank vs. to external banks."
+    },
+    {
+      "kpi_name": "kpi_internal_transfer_value",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total value of transfers between the customer's own accounts."
+    },
+    {
+      "kpi_name": "kpi_external_transfer_value",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total value of transfers to accounts at other banks."
+    },
+    {
+      "kpi_name": "kpi_most_frequent_counterparties",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Counterparties the customer transacts with most often."
+    },
+    {
+      "kpi_name": "kpi_counterparty_value_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How much total value is concentrated with few counterparties."
+    },
+    {
+      "kpi_name": "kpi_external_beneficiary_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Analysis of external beneficiaries receiving funds."
+    },
+    {
+      "kpi_name": "kpi_cross_border_analysis",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfers that cross international borders."
+    },
+    {
+      "kpi_name": "kpi_domestic_vs_international",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Ratio of domestic to international transfers."
+    },
+    {
+      "kpi_name": "kpi_geographic_concentration",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfer concentration in specific geographic regions."
+    },
+    {
+      "kpi_name": "kpi_debit_activity_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Trend in outgoing (debit) transfer activity over time."
+    },
+    {
+      "kpi_name": "kpi_net_flow_trend",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Change in net inflows vs. outflows over time."
+    },
+    {
+      "kpi_name": "kpi_behavioral_clustering",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Groups customers by similar transaction behavior patterns."
+    },
+    {
+      "kpi_name": "kpi_customer_segmentation",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Categorizes customers into segments based on behavior or value."
+    },
+    {
+      "kpi_name": "kpi_lifetime_value_estimate",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Predicted total value a customer will bring over the entire relationship."
+    },
+    {
+      "kpi_name": "kpi_churn_risk_assessment",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Probability that the customer will stop using the product."
+    },
+    {
+      "kpi_name": "kpi_relationship_depth",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Number and variety of products the customer holds."
+    },
+    {
+      "kpi_name": "kpi_product_penetration",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "How many of the available products the customer uses."
+    },
+    {
+      "kpi_name": "kpi_engagement_score",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Composite measure of how actively the customer uses the account."
+    },
+    {
+      "kpi_name": "kpi_unusual_transfer_patterns",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transfer activity that deviates from the customer's normal behavior."
+    },
+    {
+      "kpi_name": "kpi_rapid_value_increases",
+      "relative_position": "mid",
+      "confidence": "medium",
+      "description": "Sudden increases in transfer amounts over a short period."
+    },
+    {
+      "kpi_name": "kpi_after_hours_activity",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Transfer activity occurring outside normal business hours."
+    },
+    {
+      "kpi_name": "kpi_high_risk_counterparties",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Transactions with counterparties flagged as high risk."
+    },
+    {
+      "kpi_name": "kpi_compliance_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Risk score related to regulatory compliance violations."
+    },
+    {
+      "kpi_name": "kpi_aml_risk_indicators",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Signals that may indicate anti-money laundering concerns."
+    },
+    {
+      "kpi_name": "kpi_fraud_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Likelihood that the customer is involved in fraudulent activity."
+    },
+    {
+      "kpi_name": "kpi_operational_risk_indicators",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Flags related to operational issues (e.g., failed transactions)."
+    },
+    {
+      "kpi_name": "kpi_concentration_risk",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Risk from over-reliance on a single product, channel, or counterparty."
+    },
+    {
+      "kpi_name": "kpi_overall_risk_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Aggregate risk score combining multiple risk dimensions."
+    },
+    {
+      "kpi_name": "kpi_cds_total_count",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total number of Certificate of Deposit (CD) accounts held."
+    },
+    {
+      "kpi_name": "kpi_cds_total_principal",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total principal amount invested in CDs."
+    },
+    {
+      "kpi_name": "kpi_cds_avg_duration",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Average term length of CD investments."
+    },
+    {
+      "kpi_name": "kpi_cds_projected_interest",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Expected interest income from CDs over their lifetime."
+    },
+    {
+      "kpi_name": "kpi_cds_active_ratio",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Proportion of CDs that are currently active vs. matured."
+    },
+    {
+      "kpi_name": "kpi_cds_quantity_total",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Total number of individual CD positions."
+    },
+    {
+      "kpi_name": "kpi_cds_growth_trend",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Month-over-month growth in CD holdings."
+    },
+    {
+      "kpi_name": "kpi_cds_currency_exposure",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Foreign currency exposure within CD investments."
+    },
+    {
+      "kpi_name": "kpi_cds_reinvestment_risk",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Risk that maturing CDs will be reinvested at lower rates."
+    },
+    {
+      "kpi_name": "kpi_cds_liquidity_profile",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "How quickly CD investments can be converted to cash without penalty."
+    },
+    {
+      "kpi_name": "kpi_overall_total_products",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Total number of distinct products held by the customer."
+    },
+    {
+      "kpi_name": "kpi_overall_total_principal",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Sum of principal across all investment and deposit products."
+    },
+    {
+      "kpi_name": "kpi_overall_currency_dist",
+      "relative_position": "best",
+      "confidence": "high",
+      "description": "Currency breakdown across all products."
+    },
+    {
+      "kpi_name": "kpi_overall_net_interest_income",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Net interest generated after costs and provisions."
+    },
+    {
+      "kpi_name": "kpi_overall_liquidity_gap",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Difference between short-term assets and liabilities."
+    },
+    {
+      "kpi_name": "kpi_overall_customer_tenure",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Length of time the customer has been with the bank."
+    },
+    {
+      "kpi_name": "kpi_overall_profitability_score",
+      "relative_position": "worst",
+      "confidence": "high",
+      "description": "Overall profit generated from the customer relationship."
+    },
+    {
+      "kpi_name": "liquidity_kpi",
+      "relative_position": "mid",
+      "confidence": "high",
+      "description": "Measures the customer's ability to meet short-term cash needs."
+    }
+  ]
+}
